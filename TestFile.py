@@ -16,7 +16,7 @@ def main():
     x = np.linspace(-20, 20, 200)
     y = func(x)
 
-    plt.plot(x, y)
+    plt.plot(x, y, 'g')
     plt.show()
 
 
